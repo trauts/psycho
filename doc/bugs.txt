@@ -1,0 +1,4 @@
+Known bugs
+----------
+
+* dotty doesn't make nice output under cygwin.

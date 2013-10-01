@@ -1,0 +1,72 @@
+F	The artist hitting the soldier.	B8A.bmp	B8H.bmp	a
+F	The artist hitting the soldier.	B8A.bmp	B8H.bmp	a
+
+F	The artist hitting the clown.	B8J.bmp	B8B.bmp	l
+F	The artist hitting the clown.	B8J.bmp	B8B.bmp	l
+
+F	The nun following the sailor.	A11C.bmp	A11F.bmp	a
+F	The nun following the sailor.	A11C.bmp	A11F.bmp	a
+
+F	The pirate following the dancer.	B11G.bmp	B11C.bmp	l
+F	The pirate following the dancer.	B11G.bmp	B11C.bmp	l
+
+F	The policeman chasing the swimmer.	A12A.bmp	A12G.bmp	a
+F	The policeman chasing the swimmer.	A12A.bmp	A12G.bmp	a
+
+F	The waitress chasing the burglar.	B12H.bmp	B12A.bmp	l
+F	The waitress chasing the burglar.	B12H.bmp	B12A.bmp	l
+
+F	The cowboy punching the doctor.	A14A.bmp	A14G.bmp	a
+F	The cowboy punching the doctor.	A14A.bmp	A14G.bmp	a
+
+F	The cowboy punching the boxer.	A14F.bmp	A14B.bmp	l
+F	The cowboy punching the boxer.	A14F.bmp	A14B.bmp	l
+
+F	The teacher scolding the nun.	A16F.bmp	A16G.bmp	a
+F	The teacher scolding the nun.	A16F.bmp	A16G.bmp	a
+
+F	The policeman scolding the dancer.	B16G.bmp	B16A.bmp	l
+F	The policeman scolding the dancer.	B16G.bmp	B16A.bmp	l
+
+F	The nun pushing the clown.	A19B.bmp	A19F.bmp	a
+F	The nun pushing the clown.	A19B.bmp	A19F.bmp	a
+
+F	The chef pushing the swimmer.	B19G.bmp	B19B.bmp	l
+F	The chef pushing the swimmer.	B19G.bmp	B19B.bmp	l
+
+F	The artist tickling the monk.	A21C.bmp	A21F.bmp	a
+F	The artist tickling the monk.	A21C.bmp	A21F.bmp	a
+
+F	The waitress tickling the burglar.	B21G.bmp	B21C.bmp	l
+F	The waitress tickling the burglar.	B21G.bmp	B21C.bmp	l
+
+F	The waitress touching the doctor.	A23C.bmp	A23G.bmp	a
+F	The waitress touching the doctor.	A23C.bmp	A23G.bmp	a
+
+F	The teacher touching the sailor.	B23H.bmp	B23G.bmp	l
+F	The teacher touching the sailor.	B23H.bmp	B23G.bmp	l
+
+F	The chef shooting the monk.	A17F.bmp	A17G.bmp	a
+F	The chef shooting the monk.	A17F.bmp	A17G.bmp	a
+
+F	The artist shooting the boxer.	B17G.bmp	B17C.bmp	l
+F	The artist shooting the boxer.	B17G.bmp	B17C.bmp	l
+
+F	The waitress kicking the cake.	A7B.bmp	B7D.bmp	a
+F	The waitress kicking the cake.	A7B.bmp	B7D.bmp	a
+
+F	The policeman kicking the burglar.	A7A.bmp	B7C.bmp	l
+F	The policeman kicking the burglar.	A7A.bmp	B7C.bmp	l
+
+F	The chef holding the jug.	A9A.bmp	B9B.bmp	a
+F	The chef holding the jug.	A9A.bmp	B9B.bmp	a
+
+F	The nun holding the ball.	A9C.bmp	B9C.bmp	l
+F	The nun holding the ball.	A9C.bmp	B9C.bmp	l
+
+F	The pirate lifting the gun.	A10A.bmp	B10F.bmp	a
+F	The pirate lifting the gun.	A10A.bmp	B10F.bmp	a
+
+F	The chef lifting the hat.	A10B.bmp	B10E.bmp	l
+F	The chef lifting the hat.	A10B.bmp	B10E.bmp	l
+

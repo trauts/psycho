@@ -1,0 +1,111 @@
+This document describes exactly what happens going from the experimental
+matierals to the final booklets, and the programs that acheive this.
+
+In this example, there is one experimental material file ("alpha") which has 4 experimental sets to present,
+each with 4 variants to be shown to  different participants. There are also two sets of fillers ("beta" and "gamma").
+
+
+script: 1.check_me, uses: psychk
+---------------------------------
+	this checks material files for validity:
+		- the number of different material sets  per file.
+		- the number of versions of each material (items) per set.
+
+script: 2.latin_me, uses: psylat
+---------------------------------
+	this generates latin squared files (http://en.wikipedia.org/wiki/Latin_squre) from the material files - it takes one item from each set, in latin square order, generating (in this case) 4 files.
+
+	materials/alpha
+	
+	1A	first material, option A
+	1B	first material, option B
+	1C	etc
+	1D
+	
+	2A
+	2B
+	2C
+	2D
+
+	3A
+	3B
+	3C
+	3D
+	
+	4A
+	4B
+	4C
+	4D
+
+----> 4 latin square files, each with four materials
+
+	latin/alpha-A			latin/alpha-B
+	
+	1A  first material, opt A	1B
+	2B  second mat, opt B		2C
+	3C  etc				3D
+	4D				4A
+	
+	
+	latin/alpha-C			latin/alpha-D
+	1C				1D
+	2D				2A
+	3A				3B
+	4B				4C
+	
+	
+
+script: 3.random_me, uses: psyran
+---------------------------------
+	this takes each of the the latin squared source files, and generates
+	different, randomized versions of these latin squared files.
+
+	latin/alpha-A		---->		random/000-alpha-A,	random/001-alpha-A...
+	latin/alpha-B		---->		random/000-alpha-B,	random/001-alpha-B...
+	latin/alpha-C		---->		random/000-alpha-C,	random/001-alpha-C...
+	latin/alpha-D		---->		random/000-alpha-D,	random/001-alpha-D...
+	latin/beta-A		---->		random/000-beta-A,	random/001-beta-A...
+	latin/beta-B		---->		random/000-beta-B,	random/001-beta-B...
+	latin/beta-C		---->		random/000-beta-C,	random/001-beta-C...
+	latin/beta-D		---->		random/000-beta-D,	random/001-beta-D...
+	latin/gamma-A		---->		random/000-gamma-A,	random/001-gamma-A...
+	latin/gamma-B		---->		random/000-gamma-B,	random/001-gamma-B...
+	latin/gamma-C		---->		random/000-gamma-C,	random/001-gamma-C...
+	latin/gamma-D		---->		random/000-gamma-D,	random/001-gamma-D...
+
+
+script: 4.output_me, uses: psymfg, psyfn
+----------------------------------------
+	this takes each group of randomized latin squared material and filler files,
+	and combines them (like shuffling card decks) to generate the complete experimental subject
+	files. NOTE: psymfg is very careful to ensure the _first_ file is _evenly spaced_
+	throughout the resulting output file. NOTE!! only the _first_ file is treated
+	in this way.
+
+	random/000-alpha-A random/000-beta-A random/000-gamma-A	--->	output/000-A
+	random/000-alpha-B random/000-beta-B random/000-gamma-B	--->	output/000-B
+	random/000-alpha-C random/000-beta-C random/000-gamma-C	--->	output/000-C
+	random/000-alpha-D random/000-beta-D random/000-gamma-D	--->	output/000-D
+
+	random/001-alpha-A random/001-beta-A random/001-gamma-A	--->	output/001-A
+	random/001-alpha-B random/001-beta-B random/001-gamma-B	--->	output/001-B
+	random/001-alpha-C random/001-beta-C random/001-gamma-C	--->	output/001-C
+	random/001-alpha-D random/001-beta-D random/001-gamma-D	--->	output/001-D
+	....
+
+script: 5.dot_me, uses psydot
+-----------------------------
+	this takes the generated experimental subject files, and generates
+	experimental booklets ready for printing. it splits materials at the defined
+	splitpoint, if they require splitting. you can prevent each material
+	being splitted by defining a nonsense splitpoint (eg: %%%).
+
+	output/001-A	---->	dotted/001-A
+	output/001-B	---->	dotted/001-B
+	output/001-C	---->	dotted/001-C
+	output/001-D	---->	dotted/001-D
+	...				---->	...
+
+---
+Psycho version 4.20, 7th December 1997
+

@@ -1,0 +1,5 @@
+#! /bin/sh
+sets=40
+items=4
+subj=8
+psyfn $sets $items $subj psymfg materials/*

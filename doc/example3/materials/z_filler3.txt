@@ -1,0 +1,72 @@
+F	The chef pushing the dancer.	B19D.bmp	B19E.bmp	a
+F	The chef pushing the dancer.	B19D.bmp	B19E.bmp	a
+
+F	The pirate catching the gun.	B20E.bmp	B20D.bmp	l
+F	The pirate catching the gun.	B20E.bmp	B20D.bmp	l
+
+F	The artist tickling the sailor.	A21B.bmp	A21D.bmp	a
+F	The artist tickling the sailor.	A21B.bmp	A21D.bmp	a
+
+F	The cowboy pulling the book.	A22B.bmp	A22A.bmp	l
+F	The cowboy pulling the book.	A22B.bmp	A22A.bmp	l
+
+F	The waitress touching the soldier.	A23B.bmp	B23D.bmp	a
+F	The waitress touching the soldier.	A23B.bmp	B23D.bmp	a
+
+F	The policeman polishing the banana.	B24E.bmp	B24D.bmp	l
+F	The policeman polishing the banana.	B24E.bmp	B24D.bmp	l
+
+F	The witch crying.	2A9A.bmp	2A9C.bmp	a
+F	The witch crying.	2A9A.bmp	2A9C.bmp	a
+
+F	The diver crying.	2A9A.bmp	2A9B.bmp	l
+F	The diver crying.	2A9A.bmp	2A9B.bmp	l
+
+F	The skier nodding.	2A10A.bmp	2A10C.bmp	a
+F	The skier nodding.	2A10A.bmp	2A10C.bmp	a
+
+F	The cricketer nodding.	2A10A.bmp	2A10B.bmp	l
+F	The cricketer nodding.	2A10A.bmp	2A10B.bmp	l
+
+F	The witch laughing.	2A11A.bmp	2A11C.bmp	a
+F	The witch laughing.	2A11A.bmp	2A11C.bmp	a
+
+F	The knight laughing.	2A11C.bmp	2A11B.bmp	l
+F	The knight laughing.	2A11C.bmp	2A11B.bmp	l
+
+F	The diver sweating.	2A12A.bmp	2A12C.bmp	a
+F	The diver sweating.	2A12A.bmp	2A12C.bmp	a
+
+F	The prisoner sweating.	2A12A.bmp	2A12B.bmp	l
+F	The prisoner sweating.	2A12A.bmp	2A12B.bmp	l
+
+F	The knight clapping.	2A23C.bmp	2A23A.bmp	a
+F	The knight clapping.	2A23C.bmp	2A23A.bmp	a
+
+F	The prisoner clapping.	2A23B.bmp	2A23D.bmp	l
+F	The prisoner clapping.	2A23B.bmp	2A23D.bmp	l
+
+F	The skier sneezing.	2A24A.bmp	2A24C.bmp	a
+F	The skier sneezing.	2A24A.bmp	2A24C.bmp	a
+
+F	The cricketer sneezing.	2B24C.bmp	2A24B.bmp	l
+F	The cricketer sneezing.	2B24C.bmp	2A24B.bmp	l
+
+F	The witch smiling.	2A25A.bmp	2A25D.bmp	a
+F	The witch smiling.	2A25A.bmp	2A25D.bmp	a
+
+F	The fireman smiling.	2A25C.bmp	2A25D.bmp	l
+F	The fireman smiling.	2A25C.bmp	2A25D.bmp	l
+
+F	The diver yawning.	2A26A.bmp	2A26C.bmp	a
+F	The diver yawning.	2A26A.bmp	2A26C.bmp	a
+
+F	The prisoner yawning.	2B26B.bmp	2A26B.bmp	l
+F	The prisoner yawning.	2B26B.bmp	2A26B.bmp	l
+
+F	The skier saluting.	2A27C.bmp	2A27B.bmp	a
+F	The skier saluting.	2A27C.bmp	2A27B.bmp	a
+
+F	The cricketer saluting.	2B27C.bmp	2A27D.bmp	l
+F	The cricketer saluting.	2B27C.bmp	2A27D.bmp	l
+

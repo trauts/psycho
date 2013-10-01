@@ -1,0 +1,7 @@
+#! /bin/sh
+. 0.spec
+for file in latin/*
+do
+	psyran $sets $items $subjects $file
+done
+wait

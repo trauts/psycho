@@ -1,0 +1,24 @@
+#! /bin/sh
+. 0.spec
+psydot "$splitstr" $splitpoint $preamble output/*
+
+# however, our dotting may not be over...
+case $preamble in
+	-0):
+	# we have some quote marks to add, and a full stop to nuke
+		for i in dotted/*
+		do
+			# move our dots aside
+			mv $i _$i_	
+
+			# the 1st "-e" inserts a quote a the start of each line
+			# the 2nd "-e" replaces the trailing '.' with a quote
+			sed -e "s/^/\"/" -e "s/\.$/\"/" < _$i_ > $i
+
+			# get rid of the original
+			rm -f _$i_
+		done
+		;;
+	*):
+		;;
+esac

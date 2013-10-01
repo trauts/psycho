@@ -1,0 +1,72 @@
+1H	The teacher hitting the swimmer with the gun.	C8Jh.bmp	C8Nh.bmp	a	The waitress poking the doctor with the banana.	C16Ah.bmp	C16Al.bmp	a
+1L	The teacher hitting the swimmer with the gun.	C8Jl.bmp	C8Nl.bmp	a	The waitress poking the doctor with the banana.	C16Al.bmp	C16Ah.bmp	a
+
+2H	The artist hitting the clown with the ball.	C8Oh.bmp	C8Kh.bmp	l	The teacher prodding the boxer with the banana.	C25Cl.bmp	C25Ch.bmp	l
+2L	The artist hitting the clown with the ball.	C8Ol.bmp	C8Kl.bmp	l	The teacher prodding the boxer with the banana.	C25Ch.bmp	C25Cl.bmp	l
+
+3H	The chef hitting the burglar with the bat.	C8Lh.bmp	C8Ph.bmp	a	The cowboy hurting the swimmer with the gun.	C27Dh.bmp	C27Dl.bmp	a
+3L	The chef hitting the burglar with the bat.	C8Ll.bmp	C8Pl.bmp	a	The cowboy hurting the swimmer with the gun.	C27Dl.bmp	C27Dh.bmp	a
+
+4H	The policeman hitting the sailor with the hammer.	C8Qh.bmp	C8Mh.bmp	l	The cowboy injuring the doctor with the bat.	C26Dl.bmp	C26Dh.bmp	l
+4L	The policeman hitting the sailor with the hammer.	C8Ql.bmp	C8Ml.bmp	l	The cowboy injuring the doctor with the bat.	C26Dh.bmp	C26Dl.bmp	l
+
+5H	The policeman thumping the soldier with the gun.	C15Jh.bmp	C15Nh.bmp	a	The waitress prodding the clown with the umbrella.	C25Al.bmp	C25Ah.bmp	l
+5L	The policeman thumping the soldier with the gun.	C15Jl.bmp	C15Nl.bmp	a	The waitress prodding the clown with the umbrella.	C25Ah.bmp	C25Al.bmp	l
+
+6H	The artist thumping the monk with the book.	C15Oh.bmp	C15Kh.bmp	l	The nun hurting the clown with the hammer.	C27Bh.bmp	C27Bl.bmp	a
+6L	The artist thumping the monk with the book.	C15Ol.bmp	C15Kl.bmp	l	The nun hurting the clown with the hammer.	C27Bl.bmp	C27Bh.bmp	a
+
+7H	The cowboy thumping the pirate with the hammer.	C15Lh.bmp	C15Ph.bmp	a	The policeman poking the monk with the umbrella.	C16Dl.bmp	C16Dh.bmp	l
+7L	The cowboy thumping the pirate with the hammer.	C15Ll.bmp	C15Pl.bmp	a	The policeman poking the monk with the umbrella.	C16Dh.bmp	C16Dl.bmp	l
+
+8H	The nun thumping the dancer with the bat.	C15Qh.bmp	C15Mh.bmp	l	The teacher injuring the sailor with the hammer.	C26Bh.bmp	C26Bl.bmp	a
+8L	The nun thumping the dancer with the bat.	C15Ql.bmp	C15Ml.bmp	l	The teacher injuring the sailor with the hammer.	C26Bl.bmp	C26Bh.bmp	a
+
+9H	The artist poking the clown with the gun.	C16Jh.bmp	C16Nh.bmp	a	The policeman hitting the dancer with the hammer.	C8Ch.bmp	C8Cl.bmp	a
+9L	The artist poking the clown with the gun.	C16Jl.bmp	C16Nl.bmp	a	The policeman hitting the dancer with the hammer.	C8Cl.bmp	C8Ch.bmp	a
+
+10H	The teacher poking the soldier with the banana.	C16Oh.bmp	C16Kh.bmp	l	The pirate injuring the burglar with the sword.	C26Cl.bmp	C26Ch.bmp	l
+10L	The teacher poking the soldier with the banana.	C16Ol.bmp	C16Kl.bmp	l	The pirate injuring the burglar with the sword.	C26Ch.bmp	C26Cl.bmp	l
+
+11H	The policeman poking the dancer with the hammer.	C16Lh.bmp	C16Ph.bmp	a	The pirate hurting the boxer with the bat.	C27Ch.bmp	C27Cl.bmp	a
+11L	The policeman poking the dancer with the hammer.	C16Ll.bmp	C16Pl.bmp	a	The pirate hurting the boxer with the bat.	C27Cl.bmp	C27Ch.bmp	a
+
+12H	The waitress poking the boxer with the key.	C16Qh.bmp	C16Mh.bmp	l	The artist thumping the burglar with the hammer.	C15Dl.bmp	C15Dh.bmp	l
+12L	The waitress poking the boxer with the key.	C16Ql.bmp	C16Ml.bmp	l	The artist thumping the burglar with the hammer.	C15Dh.bmp	C15Dl.bmp	l
+
+13H	The policeman prodding the doctor with the gun.	C25Jh.bmp	C25Nh.bmp	a	The chef hurting the dancer with the sword.	C27Al.bmp	C27Ah.bmp	l
+13L	The policeman prodding the doctor with the gun.	C25Jl.bmp	C25Nl.bmp	a	The chef hurting the dancer with the sword.	C27Ah.bmp	C27Al.bmp	l
+
+14H	The waitress prodding the burglar with the hammer.	C25Oh.bmp	C25Kh.bmp	l	The chef injuring the swimmer with the gun.	C26Ah.bmp	C26Al.bmp	a
+14L	The waitress prodding the burglar with the hammer.	C25Ol.bmp	C25Kl.bmp	l	The chef injuring the swimmer with the gun.	C26Al.bmp	C26Ah.bmp	a
+
+15H	The artist prodding the monk with the key.	C25Lh.bmp	C25Ph.bmp	a	The policeman thumping the swimmer with the ball.	C15Cl.bmp	C15Ch.bmp	l
+15L	The artist prodding the monk with the key.	C25Ll.bmp	C25Pl.bmp	a	The policeman thumping the swimmer with the ball.	C15Ch.bmp	C15Cl.bmp	l
+
+16H	The teacher prodding the swimmer with the umbrella.	C25Qh.bmp	C25Mh.bmp	l	The nun hitting the monk with the ball.	C8Ah.bmp	C8Al.bmp	a
+16L	The teacher prodding the swimmer with the umbrella.	C25Ql.bmp	C25Ml.bmp	l	The nun hitting the monk with the ball.	C8Al.bmp	C8Ah.bmp	a
+
+17H	The pirate injuring the sailor with the bat.	C26Jh.bmp	C26Nh.bmp	a	The artist prodding the dancer with the key.	C25Bh.bmp	C25Bl.bmp	a
+17L	The pirate injuring the sailor with the bat.	C26Jl.bmp	C26Nl.bmp	a	The artist prodding the dancer with the key.	C25Bl.bmp	C25Bh.bmp	a
+
+18H	The cowboy injuring the clown with the sword.	C26Oh.bmp	C26Kh.bmp	l	The artist poking the boxer with the gun.	C16Bl.bmp	C16Bh.bmp	l
+18L	The cowboy injuring the clown with the sword.	C26Ol.bmp	C26Kl.bmp	l	The artist poking the boxer with the gun.	C16Bh.bmp	C16Bl.bmp	l
+
+19H	The teacher injuring the swimmer with the hammer.	C26Lh.bmp	C26Ph.bmp	a	The artist hitting the pirate with the gun.	C8Dh.bmp	C8Dl.bmp	a
+19L	The teacher injuring the swimmer with the hammer.	C26Ll.bmp	C26Pl.bmp	a	The artist hitting the pirate with the gun.	C8Dl.bmp	C8Dh.bmp	a
+
+20H	The chef injuring the boxer with the gun.	C26Qh.bmp	C26Mh.bmp	l	The teacher thumping the clown with the book.	C15Al.bmp	C15Ah.bmp	l
+20L	The chef injuring the boxer with the gun.	C26Ql.bmp	C26Ml.bmp	l	The teacher thumping the clown with the book.	C15Ah.bmp	C15Al.bmp	l
+
+21H	The nun hurting the doctor with the gun.	C27Jh.bmp	C27Nh.bmp	a	The cowboy hitting the soldier with the book.	C8Bl.bmp	C8Bh.bmp	l
+21L	The nun hurting the doctor with the gun.	C27Jl.bmp	C27Nl.bmp	a	The cowboy hitting the soldier with the book.	C8Bh.bmp	C8Bl.bmp	l
+
+22H	The pirate hurting the dancer with the bat.	C27Oh.bmp	C27Kh.bmp	l	The chef thumping the sailor with the gun.	C15Bh.bmp	C15Bl.bmp	a
+22L	The pirate hurting the dancer with the bat.	C27Ol.bmp	C27Kl.bmp	l	The chef thumping the sailor with the gun.	C15Bl.bmp	C15Bh.bmp	a
+
+23H	The chef hurting the burglar with the hammer.	C27Lh.bmp	C27Ph.bmp	a	The policeman prodding the soldier with the gun.	C25Dl.bmp	C25Dh.bmp	l
+23L	The chef hurting the burglar with the hammer.	C27Ll.bmp	C27Pl.bmp	a	The policeman prodding the soldier with the gun.	C25Dh.bmp	C25Dl.bmp	l
+
+24H	The teacher hurting the monk with the sword.	C27Qh.bmp	C27Mh.bmp	l	The waitress poking the burglar with the key.	C16Cl.bmp	C16Ch.bmp	a
+24L	The teacher hurting the monk with the sword.	C27Ql.bmp	C27Ml.bmp	l	The waitress poking the burglar with the key.	C16Ch.bmp	C16Cl.bmp	a
+

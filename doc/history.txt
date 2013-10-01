@@ -1,0 +1,39 @@
+5.0.0 - 01 Oct 2013
+        applied to MIT license, placed onto GITHUB.
+
+4.5.1 - 28 May 2012
+	built for cygwin 1.7.15-1
+
+4.5.0 - 29 Jul 2004
+        fixed nasty bug caused by cygwin \r\n handling in line end checks
+
+4.3.2 -  8 Jul 2004
+	couple of trivial bugfixes for cygwin compilation
+
+4.3.1 -  2 Jun 1998
+	added a mode (-0) to psydot to allow quoted instead of dotted output.
+
+4.3.0 -  7 Feb 1998
+	fixed coredump/corruption in psyran with 1 item files.
+	added getpid to randomiser seed generator, so that psyran can be ||ized.
+
+4.2.1 -  7 Dec 1997
+	fixed bad randomisation by changing from rand() to random().
+	removed gnu isblank() dependency.
+
+4.0.0 -  1 Jun 1997
+	rewrite psycho as suite of smaller apps, instead of one mongo program.
+	it was already going that way (with dotty, latin, etc)
+
+---- sketchy, ancient history derived from code archaeology below this point ----
+
+3.1.0 -  7 Jul 1996
+	some improvements to dotty, plus incremental changes critical files code.
+
+3.0.1 -  6 Jul 1996
+	added -c "critical files" option to try and improve
+	randomisation of experimental materials (at the expense
+	of the randomness of fillers)
+
+2.0.7 - 18 Oct 1994
+	already in need of a rewrite.

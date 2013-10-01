@@ -1,0 +1,8 @@
+#! /bin/sh
+for file in latin/*
+do
+	sets=40
+	items=4
+	subj=8
+	psyran $sets $items $subj $file
+done

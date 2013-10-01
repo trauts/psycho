@@ -1,0 +1,5 @@
+#! /bin/sh
+for i in materials/*
+do
+	psylat 40 4 $i
+done

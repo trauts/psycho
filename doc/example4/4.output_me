@@ -1,0 +1,3 @@
+#! /bin/sh
+. 0.spec
+psyfn $sets $items $subjects psymfg materials/*

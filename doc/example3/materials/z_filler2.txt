@@ -1,0 +1,72 @@
+F	The nun kissing the clown.	B13A.bmp	A13C.bmp	a
+F	The nun kissing the clown.	B13A.bmp	A13C.bmp	a
+
+F	The teacher kissing the cake.	A13E.bmp	B13E.bmp	l
+F	The teacher kissing the cake.	A13E.bmp	B13E.bmp	l
+
+F	The waitress eating the banana.	A15B.bmp	B15B.bmp	a
+F	The waitress eating the banana.	A15B.bmp	B15B.bmp	a
+
+F	The teacher eating the book.	A15D.bmp	B15D.bmp	l
+F	The teacher eating the book.	A15D.bmp	B15D.bmp	l
+
+F	The nun dropping the book.	B18E.bmp	A18B.bmp	a
+F	The nun dropping the book.	B18E.bmp	A18B.bmp	a
+
+F	The pirate dropping the gun.	B18D.bmp	A18A.bmp	l
+F	The pirate dropping the gun.	B18D.bmp	A18A.bmp	l
+
+F	The policeman catching the hat.	A20A.bmp	B20C.bmp	a
+F	The policeman catching the hat.	A20A.bmp	B20C.bmp	a
+
+F	The policeman catching the book.	B20F.bmp	A20B.bmp	l
+F	The policeman catching the book.	B20F.bmp	A20B.bmp	l
+
+F	The cowboy pulling the soldier.	A22D.bmp	B22A.bmp	a
+F	The cowboy pulling the soldier.	A22D.bmp	B22A.bmp	a
+
+F	The pirate pulling the banana.	A22C.bmp	B22E.bmp	l
+F	The pirate pulling the banana.	A22C.bmp	B22E.bmp	l
+
+F	The teacher polishing the gun.	A24A.bmp	B24A.bmp	a
+F	The teacher polishing the gun.	A24A.bmp	B24A.bmp	a
+
+F	The policeman polishing the cup.	A24C.bmp	B24B.bmp	l
+F	The policeman polishing the cup.	A24C.bmp	B24B.bmp	l
+
+F	The waitress kicking the jug.	A7D.bmp	A7E.bmp	a
+F	The waitress kicking the jug.	A7D.bmp	A7E.bmp	a
+
+F	The cowboy hitting the boxer.	B8F.bmp	A8F.bmp	l
+F	The cowboy hitting the boxer.	B8F.bmp	A8F.bmp	l
+
+F	The pirate holding the hat.	A9D.bmp	A9F.bmp	a
+F	The pirate holding the hat.	A9D.bmp	A9F.bmp	a
+
+F	The chef lifting the cake.	B10A.bmp	B10B.bmp	l
+F	The chef lifting the cake.	B10A.bmp	B10B.bmp	l
+
+F	The nun following the doctor.	A11B.bmp	A11E.bmp	a
+F	The nun following the doctor.	A11B.bmp	A11E.bmp	a
+
+F	The policeman chasing the monk.	A12B.bmp	A12C.bmp	l
+F	The policeman chasing the monk.	A12B.bmp	A12C.bmp	l
+
+F	The teacher kissing the apple.	B13D.bmp	B13F.bmp	a
+F	The teacher kissing the apple.	B13D.bmp	B13F.bmp	a
+
+F	The cowboy punching the swimmer.	B14D.bmp	A14D.bmp	l
+F	The cowboy punching the swimmer.	B14D.bmp	A14D.bmp	l
+
+F	The waitress eating the cake.	A15A.bmp	A15C.bmp	a
+F	The waitress eating the cake.	A15A.bmp	A15C.bmp	a
+
+F	The teacher scolding the boxer.	A16B.bmp	A16A.bmp	l
+F	The teacher scolding the boxer.	A16B.bmp	A16A.bmp	l
+
+F	The artist shooting the burglar.	B17E.bmp	B17B.bmp	a
+F	The artist shooting the burglar.	B17E.bmp	B17B.bmp	a
+
+F	The nun dropping the hat.	B18A.bmp	B18C.bmp	l
+F	The nun dropping the hat.	B18A.bmp	B18C.bmp	l
+

@@ -1,0 +1,16 @@
+#! /bin/sh
+echo	readme, do not run me
+exit
+
+#	run each file in numerical order - ie
+# 1.check_me
+# 	check the materials
+# 2.latin_me
+# 	latin square them
+# 3.random_me
+# 	randomise the latin squares
+# 4.output_me
+# 	you now have an output directory containing booklets (well, almost)
+# 
+# 5.tidy_me
+# 	delete everything except the materials, of course

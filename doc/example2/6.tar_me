@@ -1,0 +1,5 @@
+#! /bin/sh
+tar cvfz dot-A.tgz dotted/*-A*
+tar cvfz dot-B.tgz dotted/*-B*
+tar cvfz dot-C.tgz dotted/*-C*
+tar cvfz dot-D.tgz dotted/*-D*

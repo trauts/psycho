@@ -1,0 +1,12 @@
+#! /bin/sh
+rm -rf output
+mkdir -p output
+
+cd random;
+for i in *
+do
+  gawk -F, '{ print $1, ",",$2,",",$4,",",$5,",",$6; \
+	      print $10, ",",$11,",",$12; }' < $i > ../output/$i-experimenter
+  gawk -F, '{ print $1, ",",$2,",",$7,",",$8; \
+  	      print $13, ",",$14; }' < $i > ../output/$i-part
+done

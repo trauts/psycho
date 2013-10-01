@@ -1,0 +1,7 @@
+#! /bin/sh
+. ./0.read_me
+rm -f random/*
+for file in materials/*
+do
+	psyran $MATS $ITEMS $SETS $file
+done
