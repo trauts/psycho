@@ -39,6 +39,7 @@ p_usage(char *msg)
 int
 main( int argc, char *argv[] )
 {
+	int	reuse_variance = 1;	/* default to quad reuse mode */
 	int	num_files;
 	int	num_exp;
 	int	num_lines;
@@ -77,6 +78,12 @@ main( int argc, char *argv[] )
 	if ( argc != 4+num_files )
 	{
 		p_usage( "file count mismatch to files" );
+	}
+
+	if (num_files == num_exp)
+	{
+		/* all the files are important - reuse variance mode 0, so equal prominence */
+		reuse_variance = 0;
 	}
 
 /* set random number generator seed */
@@ -126,7 +133,7 @@ main( int argc, char *argv[] )
 	{
 		if (this->reuse.expfile)
 		{
-			p_set_reuse( this, num_files-1, 1 );	/* set reuse fields */
+			p_set_reuse( this, num_files-1, reuse_variance );	/* set reuse fields */
 			p_put_exp( outfile, files ); /* fill with experimental files */
 		}
 		else

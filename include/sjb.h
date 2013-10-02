@@ -1,5 +1,5 @@
 /*
-	project	:	psycho 4
+	project	:	psycho 5
 	file	:	sjb.h
 
 	Copyright (c) 1997 Stuart Boutell

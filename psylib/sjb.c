@@ -53,13 +53,33 @@ version( char *prog, int version, char *date )
 void
 copyright( int start, int end )
 {
-	printf("copyright (c) Stuart Boutell %4d",start);
+	printf("\nThe MIT License (MIT)\n\n");
+
+	printf("Copyright (c) Stuart Boutell %4d",start);
 
 	if (start==end)
 		putchar('.');
 	else
-		printf("-%4d.", end);
-	printf(" All rights reserved.\n");
+		printf("-%4d.\n\n", end);
+
+
+	printf("Permission is hereby granted, free of charge, to any person obtaining a copy of\n");
+	printf("this software and associated documentation files (the \"Software\"), to deal in\n");
+	printf("the Software without restriction, including without limitation the rights to\n");
+	printf("use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of\n");
+	printf("the Software, and to permit persons to whom the Software is furnished to do so,\n");
+	printf("subject to the following conditions:\n");
+	printf("\n");
+	printf("The above copyright notice and this permission notice shall be included in all\n");
+	printf("copies or substantial portions of the Software.\n");
+	printf("\n");
+	printf("THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\n");
+	printf("IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS\n");
+	printf("FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR\n");
+	printf("COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER\n");
+	printf("IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN\n");
+	printf("CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n\n");
+
 }
 
 void

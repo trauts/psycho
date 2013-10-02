@@ -7,8 +7,8 @@
 		global defines (version numbers, mostly)
  */
 
-#define	PSY_VERSION		500				/* psycho suite version number */
-#define	PSY_DATE		"Oct 1st 2013"			/* psycho suite build date */
+#define	PSY_VERSION		501				/* psycho suite version number */
+#define	PSY_DATE		"Oct 2nd 2013"			/* psycho suite build date */
 #define	PSY_YEAR		2013				/* psycho suite build year */
 
 #define	PSYLAT_PROG		"psylat"

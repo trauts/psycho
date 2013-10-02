@@ -1,5 +1,5 @@
 CC=gcc
-BIN=~/bin
+BIN=/usr/local/bin
 
 all:	psymfg/psymfg psylat/psylat psychk/psychk psyran/psyran psyfn/psyfn psydot/psydot
 
