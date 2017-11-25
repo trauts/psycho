@@ -1,0 +1,120 @@
+#! /bin/sh
+
+
+materials=24			# this is how many MATERIALS are in each file.
+versions=2			# this is how many VERSIONS of each MATERIAL you have
+booklets=50			# this is how many booklets/randomized materials that are required - you get $versions number of these booklets though
+
+# these are the lines we will merge the SNAP files into the MATERIALS at, every time. if you have more or less than 24 materials, you need to change this
+insert[1]="3a"
+insert[2]="8a"
+insert[3]="14a"
+insert[4]="18a"
+insert[5]="22a"
+insert[6]="24a"
+insert[7]="27a"
+insert[8]="\$a"
+
+twiddle[1]="+\b"
+twiddle[2]="-\b"
+twiddle[3]="+\b"
+twiddle[4]="-\b"
+twiddle[5]="+\\b"
+twiddle[6]="-\b"
+twiddle[7]="+\b"
+twiddle[8]="-\b"
+
+echo ${insert[$versions]}
+
+rm -rf latin random output csv-output
+
+echo -- Phase one --
+
+preamble=-0
+splitstr=". "
+splitpoint=-1		# the minus sign is important - it means strip the tag
+
+echo Generating $booklets outputs for the $materials materials per file, with $versions variants
+
+echo Checking materials
+psychk $materials $versions materials/* || exit;
+
+echo -n Latin-square:
+for i in materials/*
+do
+	psylat $materials $versions $i  || exit;
+done
+echo done
+
+echo -n Randomising: 
+for file in latin/*
+do
+	psyran $materials $versions $booklets $file || exit
+done
+echo done
+
+echo -n Making output: 
+psyfn $materials $versions $booklets psymfg materials/*
+echo  done
+#rm -rf latin random
+
+echo -n Making csv files: 
+rm -rf csv-output
+mkdir -p csv-output
+for file in output/*
+do
+ basnam=`basename $file`
+ awk -F "," 'BEGIN { printf "Item, Condition, Card, Script\n" } { printf "%s, %s, %s, %s\n", $1, $2, $4, $6}' $file > csv-output/Exp-${basnam}.csv
+ awk -F "," 'BEGIN { printf "Item, Conditon, Card, Picture\n" } { printf "%s, %s, %s, %s\n", $1, $2, $7, $8}' $file > csv-output/Par-${basnam}.csv
+done
+
+echo done
+echo -- Phase two --
+materials=8
+rm -rf random latin output
+
+echo Checking materials
+psychk $materials $versions snap/* || exit
+
+echo -n Latin-square:
+for i in snap/*
+do
+	psylat $materials $versions $i  || exit;
+done
+echo done
+
+echo -n Randomising: 
+for file in latin/*
+do
+     psyran $materials $versions $booklets $file || exit
+done
+echo  done
+
+echo -n Making output: 
+psyfn $materials $versions $booklets psymfg snap/*
+echo  done
+
+echo -n Sifting output:
+for file in output/*
+do
+ basnam=`basename $file`
+  awk -F ","  '{ printf "%s, %s, %s, %s\n", $1, $2, $3, $4 }' $file > output/Exp-${basnam}.csv
+  awk -F ","  '{ printf "%s, %s, %s, %s\n", $1, $2, $5, $6 }' $file > output/Par-${basnam}.csv
+  rm $file
+done
+echo done
+
+echo -n MERGING: 
+for file in csv-output/*
+do
+  snap=output/`basename $file`
+  for seq in `seq 1 8`;
+  do
+    echo -e -n "${twiddle[$seq]}"
+    datum=$(sed -n ${seq}p $snap)
+    sed -i "${insert[$seq]}${datum}" $file
+  done
+done
+echo done
+rm -rf output latin random
+

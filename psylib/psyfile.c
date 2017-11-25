@@ -297,7 +297,7 @@ p_write_file( file *file )
 	FILE	*stream;
 
 /* open the stream */
-	stream = fopen( file->name, "w" );
+	stream = fopen( file->name, "w,css=UTF-8" );
 	if (!stream)
 	{
 		perror(file->name);
@@ -326,7 +326,7 @@ p_read_file( char *name, int index, int expfile, int wrap)
 	char	*linebuf;
 
 /* open the stream */
-	stream = fopen( name, "r" );
+	stream = fopen( name, "r,css=UTF-8" );
 	if (!stream)
 	{
 		return (0);

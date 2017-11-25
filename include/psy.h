@@ -2,14 +2,14 @@
 	project	:	psycho 5
 	file	:	psy.h
 
-	Copyright (c) 1997,1998,2004,2012,2013 Stuart Boutell
+	Copyright (c) 1997,1998,2004,2012,2013,2017 Stuart Boutell
 	notes	:
 		global defines (version numbers, mostly)
  */
 
-#define	PSY_VERSION		501				/* psycho suite version number */
-#define	PSY_DATE		"Oct 2nd 2013"			/* psycho suite build date */
-#define	PSY_YEAR		2013				/* psycho suite build year */
+#define	PSY_VERSION		502				/* psycho suite version number */
+#define	PSY_DATE		"Nov 24th 2017"			/* psycho suite build date */
+#define	PSY_YEAR		2017				/* psycho suite build year */
 
 #define	PSYLAT_PROG		"psylat"
 #define	PSYLAT_VERSION	PSY_VERSION

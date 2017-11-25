@@ -1,0 +1,72 @@
+1,Act,1,1,bear pats girl,a bear is patting a girl,25,tiger shakes doctor,
+1,Pass,2,1,bear pats girl,a girl is being patted by a bear,25,tiger shakes doctor,
+
+2,Act,2,2,rabbits bites doctor,a rabbit is biting a doctor,26,elephant washes robber,
+2,Pass,1,2,rabbit bites doctor,a doctor is being bitten by a rabbit,26,elephant washes robber,
+
+3,Act,1,3,horse pulls fairy,a horse is pulling a fairy,27,lion scratches nurse,
+3,Pass,2,3,horse pulls fairy,a fairy is being pulled by a horse,27,lion scratches nurse,
+
+4,Act,2,4,lion hits fireman,a lion is hitting a fireman,28,cow licks king,
+4,Pass,1,4,lion hits fireman,a fireman is being hit by a lion,28,cow licks king,
+
+5,Act,1,5,cow carries queen,a cow is carrying a queen,29,pig pushing witch,
+5,Pass,2,5,cow carries queen,a queen is being carried by a cow,29,pig pushing witch,
+
+6,Act,2,6,pig squashes boy,a pig is squashing a boy,30,bear pinching soldier,
+6,Pass,1,6,pig squashes boy,a boy is being squashed by a pig,30,bear pinching soldier,
+
+7,Act,1,7,cat pats witch,a cat is patting a witch,31,rabbit hugging girl,
+7,Pass,2,7,cat pats witch,a witch is being patted by a cat,31,rabbit hugging girl,
+
+8,Act,2,8,dog bites robber,a dog is biting a robber,32,frog tickling fairy,
+8,Pass,1,8,dog bites robber,a robber is being bitten by a dog,32,frog tickling fairy,
+
+9,Act,1,9,tiger pulls dog,a tiger is pulling a soldier,33,horse kicking clown,
+9,Pass,2,9,tiger pulls dog,a soldier is being pulled by a tiger,33,horse kicking clown,
+
+10,Act,2,10,frog hits king,a frog is hitting a king,34,cat chasing boy,
+10,Pass,1,10,frog hits king,a king is being hit by a frog,34,cat chasing boy,
+
+11,Act,1,11,elephant carries clown,an elephant is carrying a clown,35,sheep kissing queen,
+11,Pass,2,11,elephant carries clown,a clown is being carried by an elephant,35,sheep kissing queen,
+
+12,Act,2,12,sheep squashes nurse,a sheep is squashing a nurse,36,dog punching fireman,
+12,Pass,1,12,sheep squashes nurse,a nurse is being squashed by a sheep,36,dog punching fireman,
+
+13,Act,1,13,dog pats king,a dog is patting a king,37,elephant shaking witch,
+13,Pass,2,13,dog pats king,a king is being patted by a dog,37,elephant shaking witch,
+
+14,Act,2,14,horse bites fireman,a horse is biting a fireman,38,bear washing clown,
+14,Pass,1,14,horse bites fireman,a fireman is being bitten by a horse,38,bear washing clown,
+
+15,Act,1,15,bear pulls witch,a bear is pulling a witch,39,tiger scratching king,
+15,Pass,2,15,bear pulls witch,a witch is being pulled by a bear,39,tiger scratching king,
+
+16,Act,2,16,cat hits clown,a cat is hitting a clown,40,pig licking fairy,
+16,Pass,1,16,cat hits clown,a clown is being hit by a cat,40,pig licking fairy,
+
+17,Act,1,17,frog carries boy,a frog is carrying a boy,41,dog pushing girl,
+17,Pass,2,17,frog carries boy,a boy is being carried by a frog,41,dog pushing girl,
+
+18,Act,2,18,elephant squashes queen,an elephant is squashing a queen,42,cat pinching nurse,
+18,Pass,1,18,elephant squashes queen,a queen is being squashed by an elephant,42,cat pinching nurse,
+
+19,Act,1,19,rabbit pats soldier,a rabbit is patting a soldier,43,sheep hugging boy,
+19,Pass,2,19,rabbit pats soldier,a soldier is being patted by a rabbit,43,sheep hugging boy,
+
+20,Act,2,20,tiger bites nurse,a tiger is biting a nurse,44,rabbit tickling queen,
+20,Pass,1,20,tiger bites nurse,a nurse is being bitten by a tiger,44,rabbit tickling queen,
+
+21,Act,1,21,lion pulls doctor,a lion is pulling a doctor,45,cow kicking fireman,
+21,Pass,2,21,lion pulls doctor,a doctor is being pulled by a lion,45,cow kicking fireman,
+
+22,Act,2,22,sheep hits girl,a sheep is hitting a girl,46,horse chasing soldier,
+22,Pass,1,22,sheep hits girl,a girl is being hit by a sheep,46,horse chasing soldier,
+
+23,Act,1,23,pig carries robber,a pig is carrying a robber,47,frog kissing doctor,
+23,Pass,2,23,pig carries robber,a robber is being carried by a pig,47,frog kissing doctor,
+
+24,Act,2,24,cow squashes fairy,a cow is squashing a fairy,48,lion punching robber,
+24,Pass,1,24,cow squashes fairy,a fairy is being squashed by a cow,48,lion punching robber,
+
